@@ -36,11 +36,13 @@ A macOS SwiftUI application that detects USB devices in real time using IOKit, d
 ## 📁 Project Structure
 
 MacOS_USB_Detection/
-  - USBWatcher.swift #Listens to USB add/remove events using IOKit
-  - USBDevice.swift #Data model for USB devices
-  - io_object_t+Extension.swift #Extension for extracting info from io_object_t
-  - ContentView.swift #SwiftUI view to list devices
-  - USB_DETECTION_APP_V1App.swift #App entry point
+│
+├── USBWatcher.swift              # Registers IOKit notifications for USB events
+├── USBDevice.swift               # USB device data model
+├── io_object_t+Extension.swift   # Extension to extract USB info from io_object_t
+├── ContentView.swift             # SwiftUI-based UI for displaying devices
+└── USB_DETECTION_APP_V1App.swift # App entry point
+
 
 ---
 

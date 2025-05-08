@@ -59,7 +59,7 @@ MacOS_USB_Detection/
 ## 🔧 Setup & Run
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/MacOS_USB_Detection.git
+   git clone https://github.com/Lazypilottt/MacOS_USB_Detection.git
    cd MacOS_USB_Detection
 2. Open the .xcodeproj or .xcodeworkspace in Xcode.
    
